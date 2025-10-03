@@ -1,1 +1,5 @@
-
+books = int(input("Please enter how many books brought:"));
+if books >= 5:
+    print("20% discount");
+else:
+    print("No discount")
